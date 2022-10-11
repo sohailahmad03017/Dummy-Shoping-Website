@@ -1,0 +1,47 @@
+.Parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+.Card{
+    color: white;
+    width: 350px;
+    margin: 20px 0 ;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient( orange, black,orange);
+  }
+  
+  .button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    outline: none;
+    border: none;
+  }
+  
+  .button:hover{
+    background-color: blue;
+  }
+  
+  .btnSpecial{
+    background-color: green;
+  }
+  .price{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .heading{
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    margin: 50px;
+  }
+  

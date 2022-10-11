@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.navLinks{
+    display: flex;
+}
+
+.navLinks li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: orange ;
+}
