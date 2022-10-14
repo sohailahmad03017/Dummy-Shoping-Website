@@ -8,9 +8,13 @@
     color: white;
     width: 350px;
     margin: 20px 0 ;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     background: linear-gradient( orange, black,orange);
+  }
+
+  .Card img{
+    border-radius: 15px;
   }
   
   .button{
@@ -44,4 +48,5 @@
     text-align: center;
     margin: 50px;
   }
+  
   
