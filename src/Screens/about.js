@@ -8,6 +8,7 @@ export default function About(){
 
   useEffect(()=>{
     axios.get('https://fakestoreapi.com/products').then((success) => {setListData(success.data)}).catch((error) => {console.log(error)})
+    
     },[]);
 
     const [listData, setListData] = useState([]);

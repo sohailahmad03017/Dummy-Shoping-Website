@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Dashboard from "../Screens/dashboard";
 import DataItem from "../Screens/DataItem";
+import News from "../Screens/News";
 
 
 export default function WebRouter() {
@@ -47,7 +48,10 @@ export default function WebRouter() {
                             <NavLink to='jewellery' className='link' onClick={() => setMenu(!menu)}>Jewellery</NavLink>
                         </li>
                         <li>
-                            <NavLink to='dashboard' className='link' onClick={() => setMenu(!menu)}>Dashboard</NavLink>
+                            <NavLink to='Dashboard' className='link' onClick={() => setMenu(!menu)}>Dashboard</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='news' className='link' onClick={() => setMenu(!menu)}>News</NavLink>
                         </li>
                     </ul>
 
@@ -68,6 +72,7 @@ export default function WebRouter() {
                     <Route path="/women" element={<Women />} />
                     <Route path="/dashboard/*" element={<Dashboard/>} />
                     <Route path="/DataItem" element={<DataItem/>} />
+                    <Route path="/news" element={<News/>}></Route>
                     <Route path="/*" element={<Navigate to = '/'/> } ></Route>
                 </Routes>
             </BrowserRouter>
