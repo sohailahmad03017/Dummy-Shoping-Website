@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Dashboard from "../Screens/dashboard";
+import DataItem from "../Screens/DataItem";
 
 
 export default function WebRouter() {
@@ -66,6 +67,7 @@ export default function WebRouter() {
                     <Route path="/mens" element={<Mens />} />
                     <Route path="/women" element={<Women />} />
                     <Route path="/dashboard/*" element={<Dashboard/>} />
+                    <Route path="/DataItem" element={<DataItem/>} />
                     <Route path="/*" element={<Navigate to = '/'/> } ></Route>
                 </Routes>
             </BrowserRouter>

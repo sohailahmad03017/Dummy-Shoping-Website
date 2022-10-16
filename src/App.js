@@ -4,7 +4,7 @@ import WebRouter from './Config/routing';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <WebRouter></WebRouter>
     </div>
   );
